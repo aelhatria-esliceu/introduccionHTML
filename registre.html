@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registre</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="simple.html">Simple</a></li>
+                <li><a href="simple2.html">Simple 2</a></li>
+                <li><a href="tablas.html">Tablas</a></li>
+                <li><a href="registre.html">Registre</a></li>
+                <li><a href="productes.html">Productes</a></li>
+                <li><a href="horario.html">Horario</a></li>
+                <li><a href="fontawesome.html">FontAwesome</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Exercisi, formulari de registre</h1>
+    <form action="registre.html" method="get">
+    <label for="nom">Nom:</label>
+    <input type="text" id="nom" name="nom" required placeholder="Introdueix el teu nom">
+    <label for="llinatge">Llinatges:</label>
+    <input type="text" id="llinatge" name="llinatge" required>
+    <br>
+        <label for="genere">Home:</label>
+        <input type="radio" id="home" name="genere" value="home" required>
+        <label for="genere">Dona:</label>
+        <input type="radio" id="dona" name="genere" value="dona" required>
+        <label for="genere">Altre:</label>
+        <input type="radio" id="altre" name="genere" value="altre" required>
+    <br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required placeholder="El teu email">
+    <label for="contrasenya">Contrasenya:</label>
+    <input type="password" id="contrasenya" name="contrasenya" required>
+    <br>
+    <label for="data">Data:</label>
+    <input type="date" id="data" name="data" required>
+    <br>
+    <label for="termes">Estic d'acord amb els termes i condicions</label>
+    <input type="checkbox" id="termes" name="termes" required>
+    <br>
+    <input type="submit" name="submit" value="submit">
+    <br>
+    </form>
+</body>
+</html>

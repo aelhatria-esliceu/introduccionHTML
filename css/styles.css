@@ -1,0 +1,126 @@
+body{
+    background-color: white;
+}
+
+h1{
+    text-align: center;
+    color: black;
+}
+h2{
+    text-align: center;
+    color: black;
+}
+
+table{
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+th,td{
+    border: 2px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+th{
+    background-color: #c0c0c0;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.table2{
+    background-color: white;
+    width: 30%;
+    margin: auto;
+    border-collapse: collapse;
+    font-weight: bold;
+    th,td{
+        border: 2px solid black;
+        padding: 8px;
+        text-align: center;
+    }
+    .td2{
+        background-color: #e0e0e0;
+    }
+}
+
+.hora{
+    color: black;
+    font-weight: bold;
+    width: 100px;
+    text-align: center;
+}
+
+.patio{
+    background-color: greenyellow;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.serveis{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.programacio{
+    background-color: purple;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.web{
+    background-color: orange;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.sox{
+    background-color: red;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.seguretat{
+    background-color: cornflowerblue;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.projecte{
+    background-color: khaki;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.sostenibilitat{
+    background-color: palegreen;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.ipo{
+    background-color: wheat;
+    color: black;
+    font-weight: bold;  
+    text-transform: uppercase;
+    text-align: center;
+}
